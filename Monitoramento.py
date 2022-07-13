@@ -24,7 +24,7 @@ mapa_configuracao = 0
 #print("Diferentes")
 #b = 1
 while(False):
-    if keyboard.is_pressed('esc'):
+    if keyboard.is_pressed('esc'): # Interrompe a execução quando a tecla 'esc' é pressionado 
         arquivo = pd.read_csv("/home/weliton/Monitoramento_IC/filtra_dados.csv")# salva informações em csv
         y = arquivo['Configuracao']
         """
